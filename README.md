@@ -50,18 +50,25 @@ This script downloads the zipped data file from the original source
 It then unzips the data files needed:
 	1) "X_test.txt" - Observations for the "y_test.txt" activities of
 	   the "subject_test.txt" subjects.
+	   
 	2) "y_test.txt" - Activities used in the "X_test.txt" observations
 	   for the "subject_test.txt" subjects.
+	   
 	3) "subject_test.txt" - Subjects for the "X_test.txt" observations 
 	   of the "y_test.txt" activities.
+	   
 	4) "X_train.txt"- Observations for the "y_train.txt" activities of
 	   the "subject_train.txt" subjects.
+	   
 	5) "y_train.txt" - Activities used in the "X_train.txt" observations
 	   of the "subject_train.txt" subjects.
+	   
 	6) "subject_train.txt" - Table of subjects for the "X_train.txt"
 	   observations of the "y_train.txt" activities.
+	   
 	7) "features.txt" - Table of columns in the "X_test.txt" and
 	   "X_train.txt" observation data files.
+	   
 	8) "activity_labels.txt" - Table to link activity code nuumbers in 
 	   the "X_test.txt" and "X_train.txt" observation files actual
 	   activities.
@@ -96,7 +103,7 @@ Dataframe "new_data" is created by using "subset" to remove all columns
 except 1, 2, and those containing "mean" but not "meanFreak" and those
 containing "std".
 
-Column 2 ("Activity" is converted from a code number to text activity
+Column 2 ("Activity") is converted from a code number to text activity
 label based upon information in "activity_labels.txt"
 
 All remaining column headers are cleaned up to remove the special
