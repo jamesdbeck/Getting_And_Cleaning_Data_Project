@@ -1,0 +1,72 @@
+This file describes the data fields (columns) in the file "output.csv"
+created by running R Scripts "download_data.R" and "run_analysis.R".
+The columns are given in order they appear left to right in the file.
+
+"Subject" - Identifies participant in the study.
+"Activity" - Identifies activity being observed.
+"TimeBodyAccelerometer.Mean.X" - Mean of all time body accelerometer observations in the X axis for this Subject and Activity.
+"TimeBodyAccelerometer.Mean.Y" - Mean of all time body accelerometer observations in the Y axis for this Subject and Activity.
+"TimeBodyAccelerometer.Mean.Z" - Mean of all time body accelerometer observations in the Z axis for this Subject and Activity.
+"TimeGravityAccelerometer.Mean.X" - Mean of all time gravity accelerometer observations in the X axis for this Subject and Activity.
+"TimeGravityAccelerometer.Mean.Y" - Mean of all time gravity accelerometer observations in the Y axis for this Subject and Activity.
+"TimeGravityAccelerometer.Mean.Z" - Mean of all time gravity accelerometer observations in the Z axis for this Subject and Activity.
+"TimeBodyAccelerometerJerk.Mean.X" - Mean of all time body jerk accelerometer observations in the X axis for this Subject and Activity.
+"TimeBodyAccelerometerJerk.Mean.Y" - Mean of all time body jerk accelerometer observations in the Y axis for this Subject and Activity.
+"TimeBodyAccelerometerJerk.Mean.Z" - Mean of all time body jerk accelerometer observations in the Z axis for this Subject and Activity.
+"TimeBodyGyroscope.Mean.X" - Mean of all time body gyroscope observations in the X axis for this Subject and Activity.
+"TimeBodyGyroscope.Mean.Y" - Mean of all time body gyroscope observations in the Y axis for this Subject and Activity.
+"TimeBodyGyroscope.Mean.Z" - Mean of all time body gyroscope observations in the Z axis for this Subject and Activity.
+"TimeBodyGyroscopeJerk.Mean.X" - Mean of all time body gyroscope jerk observations in the X axis for this Subject and Activity.
+"TimeBodyGyroscopeJerk.Mean.Y" - Mean of all time body gyroscope jerk observations in the Y axis for this Subject and Activity.
+"TimeBodyGyroscopeJerk.Mean.Z" - Mean of all time body gyroscope jerk observations in the Z axis for this Subject and Activity.
+"TimeBodyAccelerometerMagnitude.Mean" - Mean of all the time body accelerometer magnitudes for this Subject and Activity.
+"TimeGravityAccelerometerMagnitude.Mean" - Mean of all the time gravity accelerometer magnitudes for this Subject and Activity.
+"TimeBodyAccelerometerJerkMagnitude.Mean" - Mean of all the time body accerometer jerk magnitudes for this Subject and Activity.
+"TimeBodyGyroscopeMagnitude.Mean" - Mean of all the time body gyroscope magnitudes for this Subject and Activity.
+"TimeBodyGyroscopeJerkMagnitude.Mean" - Mean of all the time body gyroscopee jerk magnitudes for this Subject and Activity.
+"FastFourierTransformBodyAccelerometer.Mean.X" - Mean of all fast fourier transform body accelerometer observations in the X axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometer.Mean.Y" - Mean of all fast fourier transform body accelerometer observations in the Y axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometer.Mean.Z" - Mean of all fast fourier transform body accelerometer observations in the Z axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerk.Mean.X" - Mean of all fast fourier transform body accelerometer jerk observations in the X axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerk.Mean.Y" - Mean of all fast fourier transform body accelerometer jerk observations in the Y axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerk.Mean.Z" - Mean of all fast fourier transform body accelerometer jerk observations in the Z axis for this Subject and Activity.
+"FastFourierTransformBodyGyroscope.Mean.X" - Mean of all fast fourier transform body gyroscope observations in the X axis for this Subject and Activity.
+"FastFourierTransformBodyGyroscope.Mean.Y" - Mean of all fast fourier transform body gyroscope observations in the Y axis for this Subject and Activity.
+"FastFourierTransformBodyGyroscope.Mean.Z" - Mean of all fast fourier transform body gyroscope observations in the Z axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerMagnitude.Mean" - Mean of all the fast fourier transform body accelerometer magnitudes for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerkMagnitude.Mean" - Mean of all the fast fourier transform body accelerometer jerk magnitudes for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeMagnitude.Mean" - Mean of all the fast fourier transform body gyroscope magnitudes for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeJerkMagnitude.Mean" - Mean of all the fast fourier transform body gyrscope jerk magnitudes for this Subject and Activity.
+"TimeBodyAccelerometerStandardDeviation.X" - Mean of all time body accelerometer standard deviations in the X axis for this Subject and Activity.
+"TimeBodyAccelerometerStandardDeviation.Y" - Mean of all time body accelerometer standard deviations in the Y axis for this Subject and Activity.
+"TimeBodyAccelerometerStandardDeviation.Z" - Mean of all time body accelerometer standard deviations in the Z axis for this Subject and Activity.
+"TimeGravityAccelerometerStandardDeviation.X" - Mean of all time gravity accelerometer standard deviations in the X axis for this Subject and Activity.
+"TimeGravityAccelerometerStandardDeviation.Y" - Mean of all time gravity accelerometer standard deviations in the Y axis for this Subject and Activity.
+"TimeGravityAccelerometerStandardDeviation.Z" - Mean of all time gravity accelerometer standard deviations in the Z axis for this Subject and Activity.
+"TimeBodyAccelerometerJerkStandardDeviation.X" - Mean of all time body accelerometer jerk standard deviations in the X axis for this Subject and Activity.
+"TimeBodyAccelerometerJerkStandardDeviation.Y" - Mean of all time body accelerometer jerk standard deviations in the Y axis for this Subject and Activity.
+"TimeBodyAccelerometerJerkStandardDeviation.Z" - Mean of all time body accelerometer jerk standard deviations in the Z axis for this Subject and Activity.
+"TimeBodyGyroscopeStandardDeviation.X" - Mean of all time body gyroscope standard deviations in the X axis for this Subject and Activity.
+"TimeBodyGyroscopeStandardDeviation.Y" - Mean of all time body gyroscope standard deviations in the Y axis for this Subject and Activity.
+"TimeBodyGyroscopeStandardDeviation.Z" - Mean of all time body gyroscope standard deviations in the Z axis for this Subject and Activity.
+"TimeBodyGyroscopeJerkStandardDeviation.X" - Mean of all time body gyroscope jerk standard deviations in the X axis for this Subject and Activity.
+"TimeBodyGyroscopeJerkStandardDeviation.Y" - Mean of all time body gyroscope jerk standard deviations in the Y axis for this Subject and Activity.
+"TimeBodyGyroscopeJerkStandardDeviation.Z" - Mean of all time body gyroscope jerk standard deviations in the Z axis for this Subject and Activity.
+"TimeBodyAccelerometerMagnitudeStandardDeviation" - Mean of all time body accelerometer magnitude standard deviations for this Subject and Activity.
+"TimeGravityAccelerometerMagnitudeStandardDeviation" - Mean of all time gravity accelerometer magnitude standard deviations for this Subject and Activity.
+"TimeBodyAccelerometerJerkMagnitudeStandardDeviation" - Mean of all time body accelerometer jerk magnitude standard deviations for this Subject and Activity.
+"TimeBodyGyroscopeMagnitudeStandardDeviation" - Mean of all time body gyroscope magnitude standard deviations for this Subject and Activity.
+"TimeBodyGyroscopeJerkMagnitudeStandardDeviation" - Mean of all time body gyroscope jerk magnitude standard deviations for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerStandardDeviation.X" - Mean of all time body gyroscope observations in the X axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerStandardDeviation.Y" - Mean of all time body gyroscope observations in the Y axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerStandardDeviation.Z" - Mean of all time body gyroscope observations in the Z axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerkStandardDeviation.X" - Mean of all time body gyroscope observations in the X axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerkStandardDeviation.Y" - Mean of all time body gyroscope observations in the Y axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerkStandardDeviation.Z" - Mean of all time body gyroscope observations in the Z axis for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeStandardDeviation.X" - Mean of all fast fourier transform gyroscope standard deviations in the X axis for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeStandardDeviation.Y" - Mean of all fast fourier transform gyroscope standard deviations in the Y axis for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeStandardDeviation.Z" - Mean of all fast fourier transform gyroscope standard deviations in the Z axis for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerMagnitudeStandardDeviation" - Mean of all fast fourier transform body accelerometer magnitude standard deviations for this Subject and Activity.
+"FastFourierTransformBodyAccelerometerJerkMagnitudeStandardDeviation" - Mean of all fast fourier transform body accelerometer jerk magnitude standard deviations for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeMagnitudeStandardDeviation" - Mean of all fast fourier transform body gyroscope magnitude standard deviations for this Subject and Activity.
+"FastFourierTransformBodyGyroscopeJerkMagnitudeStandardDeviation" - Mean of all fast fourier transform body gyroscope jerk magnitude standard deviations for this Subject and Activity.
